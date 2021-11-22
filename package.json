@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Simple Logger App to Practice Morgan",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "keywords": [],
   "author": "Amir Pourhadi",
   "license": "ISC"
