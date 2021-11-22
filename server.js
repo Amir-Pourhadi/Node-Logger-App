@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 });
 
 // Use a Sample morgan token
-morgan.token("param", (req, res, param) => "userToken");
+morgan.token("param", () => "userToken");
 
 // Use stream to write morgan's logs to a file instead of the console
 // "a" flag to append to the file instead of overwriting it
