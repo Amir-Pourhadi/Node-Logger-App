@@ -1,0 +1,10 @@
+{
+  "name": "logger-app",
+  "version": "1.0.0",
+  "description": "Simple Logger App to Practice Morgan",
+  "main": "server.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Amir Pourhadi",
+  "license": "ISC"
+}
